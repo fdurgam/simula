@@ -1,0 +1,3 @@
+data<-read.table(archivo,header=FALSE)
+n<-length(data$V1)
+media.llegada=(max(data$V1)-min(data$V1))/n
